@@ -14,8 +14,8 @@
 # theme: jekyll-agency  <-- 기존 코드는 지우거나 주석 처리
 # remote_theme: ravikksharma/jekyll-agency
 
-url: "https://github.com/lmhyuck" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/gunbam" # the subpath of your site, e.g. /blog
+url: "https://lmhyuck.github.io" # 프로필 주소가 아닌, 실제 배포된 도메인을 적어야 합니다.
+baseurl: "/gunbam"
 
 title: Gunbam Company
 email: doccabiss@gmail.com #this is also the email contact forms will go to
