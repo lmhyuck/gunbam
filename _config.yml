@@ -12,7 +12,7 @@
 # in the templates via {{ site.myvariable }}.
 
 # theme: jekyll-agency  <-- 기존 코드는 지우거나 주석 처리
-remote_theme: ravikksharma/jekyll-agency
+# remote_theme: ravikksharma/jekyll-agency
 
 url: "https://github.com/lmhyuck" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/gunbam" # the subpath of your site, e.g. /blog
@@ -44,6 +44,5 @@ sass:
   quiet_deps: true
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
