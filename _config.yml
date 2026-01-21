@@ -11,7 +11,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
+# theme: jekyll-agency  <-- 기존 코드는 지우거나 주석 처리
+remote_theme: ravikksharma/jekyll-agency
 
 url: "https://github.com/lmhyuck" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/gunbam" # the subpath of your site, e.g. /blog
@@ -41,3 +42,8 @@ formspree_form_path: "f/mwvvrjwp"
 sass:
   # 경고 메시지를 터미널에 출력하지 않도록 설정
   quiet_deps: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
